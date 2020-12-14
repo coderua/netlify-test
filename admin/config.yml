@@ -14,7 +14,7 @@ media_folder: "images/uploads" # Media files will be stored in the repo under im
 collections:
   - name: 'service'
     label: 'API Documentation'
-    folder: '_posts'
+    folder: '_posts/'
     format: 'frontmatter'
     create: true
     slug: '{{slug}}'
