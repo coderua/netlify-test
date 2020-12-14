@@ -1,3 +1,10 @@
+# Jekyll
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+
 # Logs
 logs
 *.log
@@ -36,9 +43,6 @@ build/Release
 node_modules/
 jspm_packages/
 
-# TypeScript v1 declaration files
-typings/
-
 # Optional npm cache directory
 .npm
 
@@ -57,16 +61,7 @@ typings/
 # dotenv environment variables file
 .env
 
-# next.js build output
-.next
 .vscode
-
-# Nuxt build
-nuxt-dist
-.nuxt
-
-# Nuxt distribution
-dist/
 
 # Intellij Idea
 .idea/
