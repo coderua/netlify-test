@@ -3,10 +3,10 @@
 #publish_mode: editorial_workflow
 
 backend:
-  name: git-gateway
+#  name: git-gateway
   branch: main
-#  name: github
-#  repo: coderua/netlify-test # Path to your GitHub repository
+  name: github
+  repo: coderua/netlify-test # Path to your GitHub repository
 
 media_folder: "images/uploads" # Media files will be stored in the repo under images/uploads
 #public_folder: /images
